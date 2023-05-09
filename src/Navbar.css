@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: "customfont";
+    font-weight: 300;
+}
+
+body {
+    margin: 0.6%;
+    background-color: rgb(23, 33, 39)
+}
+
+
+
+.nav {
+    background-color: rgba(11, 34, 72, 0.906);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 1 1rem;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav ul {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .15rem;
+}
+
+.nav li :hover {
+    background-color: rgb(19, 80, 221);
+}
+.nav li :active {
+    background-color: rgb(41, 41, 152);
+}
